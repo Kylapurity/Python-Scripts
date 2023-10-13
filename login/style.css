@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+.body-nav{
+    font-family: sans-serif;
+    background-image: url(https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg) ;
+}
+.navation-1{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    border-bottom: 3px solid rgb(34, 163, 232);
+    justify-content: center;
+    position: relative;
+
+}
+.label-log{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.nav-ul{
+    float: right;
+    margin-right: 160px;
+    border: none;
+}
+.ul-li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.nav-a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-a:hover{
+    color: #fff;
+    background-color: aqua;
+}
+.nav-button{
+    float: right;
+    position: relative;
+    top: 15px;
+    left: 550px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(61, 195, 229);    
+}
+.nav-button :hover{
+    background-color: #333;
+    transition: all 0.2s ease-in-out;
+}
+.nav-button:active {
+    background-color: #555;
+    transform: scale(0.9);
+}
+
+.p-1{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.p-2{
+    font-size:18px ;
+    font-weight: bold;
+    color: rgb(63, 123, 235);
+    text-align: justify;
+}
